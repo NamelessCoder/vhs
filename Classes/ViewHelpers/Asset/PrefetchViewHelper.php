@@ -59,7 +59,7 @@ class PrefetchViewHelper extends AbstractAssetViewHelper
         $this->registerArgument(
             'domains',
             'mixed',
-            'Domain DNS names to prefetch. By default will add all sys_domain record DNS names',
+            'Domain DNS names to prefetch. By default will add all sys_domain record DNS names. TEST.',
             true
         );
         $this->registerArgument(
