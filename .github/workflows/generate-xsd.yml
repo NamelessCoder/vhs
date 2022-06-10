@@ -49,5 +49,5 @@ jobs:
             git config user.email "claus@namelesscoder.net"
             git add ./Resources/Private/Schemas/Vhs.xsd
             git commit -m '[TASK] Update XSD schema'
-            git push https://${{ secrets.EXEMPT_PUSH_TOKEN }}@github.com/FluidTYPO3/vhs HEAD:development
+            git push https://${{ secrets.EXEMPT_PUSH_TOKEN }}@github.com/NamelessCoder/vhs HEAD:development
           fi
