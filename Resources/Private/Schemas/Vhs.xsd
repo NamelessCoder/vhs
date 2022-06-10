@@ -234,7 +234,7 @@ See: https://developer.mozilla.org/en-US/docs/Controlling_DNS_prefetching
       </xsd:attribute>
       <xsd:attribute type="xsd:anySimpleType" name="domains" default="NULL" use="required">
         <xsd:annotation>
-          <xsd:documentation><![CDATA[Domain DNS names to prefetch. By default will add all sys_domain record DNS names]]></xsd:documentation>
+          <xsd:documentation><![CDATA[Domain DNS names to prefetch. By default will add all sys_domain record DNS names. TEST.]]></xsd:documentation>
         </xsd:annotation>
       </xsd:attribute>
       <xsd:attribute type="xsd:string" name="protocol" default="NULL">
